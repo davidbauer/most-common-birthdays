@@ -1,0 +1,126 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<title>Geburtstage</title>
+<meta name="description" content="Die häufigisten Geburtstage der Schweiz, visualisiert" />
+<meta name="author" content="David Bauer" />
+<meta name="Content-Language" content="de" />
+<meta name="keywords" content="Geburtstage, Statistik, Visualisierung, D3, Geburten, Webapp" />
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18717219-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script> 
+          
+</head>
+<body>
+
+<div id="wrapper">
+
+<h2>Häufigste Geburtstage in der Schweiz</h2>
+<div id="header">
+<p>Wann haben Sie Geburtstag?</p>
+
+	<form id="searchform" name="birthday">
+		
+		<select name="day">
+			<option value="1">1
+			<option value="2">2
+			<option value="3">3
+			<option value="4">4
+			<option value="5">5
+			<option value="6">6
+			<option value="7">7
+			<option value="8">8
+			<option value="9">9
+			<option value="10">10
+			<option value="11">11
+			<option value="12">12
+			<option value="13">13
+			<option value="14">14
+			<option value="15">15
+			<option value="16">16
+			<option value="17">17
+			<option value="18">18
+			<option value="19">19
+			<option value="20">20
+			<option value="21">21
+			<option value="22">22
+			<option value="23">23
+			<option value="24">24
+			<option value="25">25
+			<option value="26">26
+			<option value="27">27
+			<option value="28">28
+			<option value="29">29
+			<option value="30">30
+			<option value="31">31
+		</select>
+		
+		<select name="month">
+			<option value="1">Januar
+			<option value="2">Februar
+			<option value="3">März
+			<option value="4">April
+			<option value="5">Mai
+			<option value="6">Juni
+			<option value="7">Juli
+			<option value="8">August
+			<option value="9">September
+			<option value="10">Oktober
+			<option value="11">November
+			<option value="12">Dezember
+		</select>
+		
+		
+		<input type="submit" value="Weiter!" class="button">
+	</form>
+</div> <!--header-->
+
+<div id="txt">
+
+	<p id="congrats"></p>
+
+	<p id="others"></p>
+	
+	<div class="line hidden"></div>
+	
+	<p id="rank"></p>
+	
+	<div class="line hidden"></div>
+</div>
+	
+	<div id="viz">
+	
+	</div>
+	<p class="caveat">Dass die Monatsersten und insbesondere der 1. Januar überproportional oft vorkommen, liegt laut Bundesamt für Statistik daran, dass bei einigen Personen nur ein Geburtsmonat, bzw. nur ein Geburtsjahr bekannt ist, was dann von den Einwohnerregistern in der Statistik als 1. des Monats, bzw. des Jahres erfasst wird.</p>
+	
+		
+	<div class="line hidden"></div>
+	
+	
+
+            <div id="push"></div>
+</div> <!-- wrapper -->
+<div id="footnote">
+		Konzept und Programmierung: <a href="http://www.davidbauer.ch">David Bauer</a>. Daten: <a href=" http://www.bfs.admin.ch/bfs/portal/de/index.Document.153576.xls">Bundesamt für Statistik, 2010</a>. 
+	</div>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>	
+<script type="text/javascript" src="bdays.js"></script>
+		
+</body>
+</html>
