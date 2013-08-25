@@ -15,6 +15,7 @@ Out of the box, it's in German and using data for Switzerland. To make it work f
 * Replace the default data array in bdays.js with yours and replace data.json with your file.
 * Translate the bits you want in your language
 * Add a caveat to your data to the .caveat paragraph if needed.
+* Link to your data source in #footnote, please leave the credit.
 
 Beware!
 ------
