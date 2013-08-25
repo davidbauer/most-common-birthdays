@@ -11,7 +11,7 @@ Out of the box, it's in German and using data for Switzerland. To make it work f
 * Get the data you want to visualise and format in a) JSON and b) a simple array
 * Replace the default data array in bdays.js with yours and replace data.json with your file.
 * Translate the bits you want in your language
-* Add a caveat to your data to <p class="caveat"> if needed.
+* Add a caveat to your data to <code><p class="caveat"></code> if needed.
 
 Note:
 I'm a journalist, not a programmer, so don't expect perfect code (well, don't even expect decent code, but rather code that somehow works). If you can help improve the code, please do. This is my first D3 project, so I'm eager to learn.
