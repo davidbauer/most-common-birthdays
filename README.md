@@ -21,4 +21,8 @@ Beware!
 ------
 I'm a journalist, not a programmer, so don't expect perfect code (well, don't even expect decent code, but rather code that somehow works). If you can help improve the code, please do. This is my first D3 project, so I'm eager to learn.
 
-
+Existing visualisations
+-----------------------
+* [Switzerland, TagesWoche](http://www.tageswoche.ch/+bgkvj)
+* [Slovakia, Ekonomika](http://ekonomika.sme.sk/c/6908217/kolko-deti-sa-zvykne-narodit-v-den-vasich-narodenin-interaktivny-kalendar.html#kalendar)
+* Add yours!
