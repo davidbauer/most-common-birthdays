@@ -26,3 +26,8 @@ Existing visualisations
 * [Switzerland, TagesWoche](http://www.tageswoche.ch/+bgkvj)
 * [Slovakia, Ekonomika](http://ekonomika.sme.sk/c/6908217/kolko-deti-sa-zvykne-narodit-v-den-vasich-narodenin-interaktivny-kalendar.html#kalendar)
 * Add yours!
+ 
+(http://www.davidbauer.ch/wp-content/uploads/2013/08/Bildschirmfoto-2013-08-15-um-21.26.14-1024x632.png)
+
+
+
